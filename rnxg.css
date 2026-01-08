@@ -1,0 +1,541 @@
+body {
+    padding:0;
+    margin:0;
+    background:black;
+}
+
+.main {
+    /* position:relative; */
+    /* width:1440px; */
+    /* height: 820px;*/
+     min-height: 100vh;
+     width:100%;
+    background-image: url("../bg.png");
+     background-size: cover;
+  background-position: center;
+  background-size:  100% 100%;
+}
+@font-face {
+    font-family: "Ethnocentric",'Times New Roman', Times, serif ;
+    src: url("Ethnocentric-Regular.otf");
+}
+
+.right1{
+  position: absolute;
+  top: 130px;
+  left: 60px;
+  height:73px;
+  width: 230px;
+}
+
+.RNXG {
+        font-family:"Ethnocentric" ;
+        font-size: 60px;
+        position: absolute;
+        padding:1%;
+        height:40px;
+        top: 7px;
+        left:60%;
+        transform:translate(-50%);
+        color: #57B9FF;
+}
+
+.Stlrnxg {
+  position: absolute;
+  width:59%;
+  height: 4px;
+  background-color: white;
+  margin: 10px 0;
+  top:185px;
+  left: 70px;
+}
+.Stlspons {
+  position: absolute;
+  width:59%;
+  height: 4px;
+  background-color: white;
+  margin: 10px 0;
+  bottom:245px;
+  left: 70px;
+
+}
+.SPONSORS {
+    position: absolute;
+    color:#57B9FF;
+      text-align: center;
+    font-family: 'Ethnocentric';
+    font-size: 52px;
+    top:0px;
+    left: 12px;
+    width: 600px;
+}
+
+.Explore {
+  position: absolute;
+  top: 140px;
+  left: 40%;
+  height: 60px;
+  width: 280px;
+  text-decoration: none;
+}
+#explo {
+  height:50px;
+}
+
+.right2 {
+    position:absolute;
+    top:265px;
+    height:70px;
+    width:490px;
+    padding: 30px;
+    left: 90px;
+    line-height: 20px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px) saturate(180%);
+    color: white;
+}
+@font-face{
+  font-family:'Aldrich','Monospace', Times, serif;
+  src: url("Aldrich-Regular.ttf")
+}
+.textRNXG {
+  color:rgb(222, 213, 213);
+   font-family:'Aldrich';
+   font-size: medium;
+   position: absolute;
+   bottom: 14px;
+   width: 500px;
+   left: 17px;
+  
+}
+.right3 {
+   position: absolute;
+  bottom: 250px;
+  left: 60px;
+  height:60px;
+  width: 620px;
+}
+
+ .right4 {
+   position: absolute;
+  bottom: 156px;
+  left: 94px;
+  height: 4px;
+  width: 489px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px) saturate(180%);
+  color: white;
+  
+}
+.textSponsors {
+   font-family:'Aldrich';
+   font-size:medium;
+   position: absolute;
+   line-height: 20px;
+   height: 30px;
+  bottom: 22px;
+  left: 20px;
+  width: 500px;
+  color: rgb(222, 213, 213);
+}
+
+.right5 {
+    position:absolute;
+    left:60px;
+    bottom:20px;
+    width:700px;
+}
+
+.left {
+    position:absolute;
+    top: 2px;
+    right:4px;
+}
+
+
+.container {
+   position: absolute;
+  right: 140px;
+  width: 260px;
+}
+.container .wrapper { 
+    transform:rotate(90deg);
+    width: 240px;
+    height: 275px;
+    margin: 5rem auto;
+}
+
+.container .wrapper-holder {
+    display: grid;
+    grid-template-columns: repeat(4,100%);
+    height: 100%;
+    width: 100%;
+    animation: slider 10s ease-in-out infinite alternate;
+}
+.container #slider-img-1 {
+    background-image: url(../amazon\ spons.jpg);
+   background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+     right: 20%;
+   height:150px;
+   width:150px; 
+  top: 110px;
+}
+.container #slider-img-2 {
+    background-image: url(../flipkart.jpeg);
+   background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    right: 20%;
+    height:150px;
+    width: 150px;
+  top: 310px;
+}
+
+.container #slider-img-3 {
+    background-image: url(../ralphlauren.jpeg);
+   background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+     right: 20%;  
+  height: 150px;
+  width: 150px;  
+  top: 530px;
+}
+
+.container #slider-img-4 {
+    background-image: url(../adidas\ spons.png);
+   background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    right: 20%;
+    height: 150px;
+    width:150px;
+    top:750;
+}
+.container .button-holder{
+    position: absolute;
+    left: 45%;
+    bottom: 0%;
+}
+.button:hover{
+    box-shadow: 0px 0px 7px 4px rgba(0,255,255,0.6)
+}
+@keyframes slider{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
+
+
+
+
+
+/* @media (max-width: 426px) and (min-width: 321px) { */
+@media (max-width: 426px)  {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main {
+    min-width: 100%;
+    min-height: 100vh;
+    background-position: center;
+  }
+
+ 
+  .right1 {
+    top: 30px;
+    left: 20px;
+    width: auto;
+  }
+
+  .RNXG {
+    font-size: 34px;
+    left: 0;
+    transform: none;
+  }
+
+
+  .Explore {
+    top: 40px;
+    left: 210px;
+    width: 180px;
+    height: auto;
+    
+  }
+
+  .Explore img {
+    width: 100%;
+  }
+
+  #explo {
+    height:25px;
+  }
+  .Stlspons {
+    width: 80%;
+    left: 20px;
+     bottom: 46%;
+  }
+
+  .Stlrnxg {
+    width: 80%;
+    left: 20px;
+    top: 9%;
+  }
+
+
+  .right2 {
+    top: 110px;
+    height:min-content;
+    left: 10px;
+    width: 85%;
+    padding: 20px;
+  }
+
+  .textRNXG {
+    position: static;
+    width: 100%;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+
+  .right3 {
+    left: 20px;
+    bottom: auto;
+    top: 320px;
+    width: 100%;
+  }
+
+  .SPONSORS {
+    font-size: 25px;
+    width: 70%;
+    left: 0;
+  }
+
+
+  .right4 {
+    top: 366px;
+    width: 85%;
+    left: 10px;
+    height: 40px;
+    padding: 20px;
+  }
+
+  .textSponsors {
+    position: static;
+    width: 100%;
+    font-size: 13px;
+  
+  }
+
+
+  .right5,
+  .left {
+    display: none;
+  }
+
+
+  .container {
+    overflow-x: hidden;
+    left: 86px;
+    margin: 40px auto;
+    width: 160px;
+    bottom: 0%;
+  }
+
+  .container .wrapper {
+    transform: rotate(0deg);
+    width: 160px;
+    height: 160px;
+    margin: auto;
+  }
+
+  .container .wrapper-holder div {
+    width: 160px;
+    height: 160px;
+  }
+
+  .container .button-holder {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) and (min-width: 320px) {
+  .main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 16px 10px;
+  }
+  .SPONSORS {
+    width: 78%;
+  }
+}
+
+@media (max-width: 320px) {
+   .main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 16px 10px;
+  }
+   .right1 {
+    top: 30px;
+    left: 20px;
+    width: auto
+   }
+   .RNXG {
+    font-size: 30px;
+   }
+
+   #explo {
+    height: 24px;
+    width: min-content;
+   }
+   .SPONSORS {
+    width: 78%;
+    font-size: 20px;
+   }
+}
+
+
+
+
+@media(min-width: 427px) and (max-width: 769px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main {
+    min-height:100vh;
+    min-width: 100%;
+    height: 673px;
+    background-position: center;
+  }
+
+
+  .right1 {
+    top: 74px;
+    left: 20px;
+    width: auto;
+  }
+
+  .RNXG {
+    font-size: 34px;
+    left: 0;
+    transform: none;
+  }
+
+
+  .Explore {
+    top: 75px;
+    left: 50%;
+    width: 180px;
+    height: auto;
+    
+  }
+
+  #explo {
+    height: 35px;
+  }
+  .Explore img {
+    width: 100%;
+  }
+
+
+  
+  .Stlspons {
+    width: 70%;
+    left: 20px;
+     bottom: 32%;
+  }
+
+  .Stlrnxg {
+    width: 70%;
+    left: 20px;
+    top: 16%;
+  }
+
+
+  .right2 {
+    top: 180px;
+    height:min-content;
+    left: 25px;
+    width: 61%;
+    padding: 20px;
+  }
+
+  .textRNXG {
+    position: static;
+    width: 100%;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+
+  .right3 {
+    left: 0px;
+    bottom: auto;
+    top: 395px;
+    width: 605px;
+  }
+
+  .SPONSORS {
+    font-size: 30px;
+    width: auto;
+    left: 40px;
+    top: 18px;
+  }
+
+
+  .right4 {
+    top: 490px;
+    width: 59%;
+    left: 35px;
+    height: 49px;
+    padding: 20px;
+  }
+
+  .textSponsors {
+    position: static;
+    width: 100%;
+    font-size: 13px;
+  
+  }
+  
+  .right5,
+  .left {
+    display: none;
+  }
+
+
+  .container {
+    right: 35px;
+  }
+  .container .wrapper {
+    position: absolute;
+    right: 0px;
+    width: 160px;
+    height:160px
+  }
+}
